@@ -42,7 +42,7 @@ class NeteaseMusicAPI{
             's'=>$s,
             'type'=>$type,
             'limit'=>$limit,
-            'total'=>'true',
+            'total'=>'true',fdfdffdfdfdfdf
             'offset'=>$offset,
         );
         return $this->curl($url,$data);
@@ -56,7 +56,8 @@ class NeteaseMusicAPI{
     public function album($album_id){
         $url='http://music.163.com/api/album/'.$album_id;
         return $this->curl($url);
-    }
+    }fd
+        fdfd
 
     public function detail($song_id){
         $url='http://music.163.com/api/song/detail';
